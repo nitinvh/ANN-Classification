@@ -5,7 +5,7 @@ import tensorflow as tf
 
 st.title('Customer Churn Prediction')
 
-model = tf.keras.models.load_model('model.h5')
+model = tensorflow.keras.models.load_model('model.h5')
 
 
 with open('onehot_encoder_geo.pkl','rb') as file:
